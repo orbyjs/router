@@ -1,0 +1,53 @@
+{
+  "name": "@orby/router",
+  "description": "A route manager based on popstate",
+  "version": "0.0.0",
+  "main": "dist/orby-router.js",
+  "module": "dist/orby-router.mjs",
+  "umd:main": "dist/orby-router.umd.js",
+  "source": "src/index.js",
+  "author": "Matias Trujillo Olivares",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orbyjs/router.git"
+  },
+  "scripts": {
+    "watch": "microbundle -w --name @orby/router",
+    "test": "jest",
+    "build": "microbundle --name @orby/router",
+    "prepare": "npm run build",
+    "upload": "npm publish --access public"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0",
+    "microbundle": "^0.7.0",
+    "regenerator-runtime": "^0.13.1"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "useBuiltIns": "entry"
+        }
+      ],
+      [
+        "@babel/preset-react",
+        {
+          "pragma": "h",
+          "throwIfNamespace": false
+        }
+      ]
+    ]
+  },
+  "dependencies": {
+    "@orby/core": "^0.0.28",
+    "path-path": "^0.1.0"
+  }
+}
