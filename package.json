@@ -13,9 +13,10 @@
     "url": "https://github.com/orbyjs/router.git"
   },
   "scripts": {
-    "watch": "microbundle -w --name @orby/router",
+    "w": "rollup -c",
+    "watch": "microbundle -w --name @orby/router --globals @orby/core=@orby/core",
     "test": "jest",
-    "build": "microbundle --name @orby/router",
+    "build": "microbundle --name @orby/router --globals @orby/core=@orby/core",
     "prepare": "npm run build",
     "upload": "npm publish --access public"
   },
