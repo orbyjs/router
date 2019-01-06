@@ -569,9 +569,9 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@orby/core@^0.0.28":
-  version "0.0.28"
-  resolved "https://registry.yarnpkg.com/@orby/core/-/core-0.0.28.tgz#ce9263b4c2eea0599c5344b4ac8205dbb14d504c"
+"@orby/core@^0.0.29":
+  version "0.0.29"
+  resolved "https://registry.yarnpkg.com/@orby/core/-/core-0.0.29.tgz#b40196c050be9ac966e2585339f410452aa9231e"
 
 "@types/estree@0.0.39":
   version "0.0.39"
