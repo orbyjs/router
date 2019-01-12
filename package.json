@@ -1,7 +1,7 @@
 {
   "name": "@orby/router",
   "description": "A route manager based on popstate",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "dist/orby-router.js",
   "module": "dist/orby-router.mjs",
   "umd:main": "dist/orby-router.umd.js",
@@ -13,7 +13,6 @@
     "url": "https://github.com/orbyjs/router.git"
   },
   "scripts": {
-    "w": "rollup -c",
     "watch": "microbundle -w --name @orby/router --globals @orby/core=@orby/core",
     "test": "jest",
     "build": "microbundle --name @orby/router --globals @orby/core=@orby/core",
