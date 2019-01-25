@@ -569,9 +569,9 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@orby/core@^0.0.29":
-  version "0.0.29"
-  resolved "https://registry.yarnpkg.com/@orby/core/-/core-0.0.29.tgz#b40196c050be9ac966e2585339f410452aa9231e"
+"@orby/core@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@orby/core/-/core-0.1.4.tgz#4260fcf39823b7de3eb754bd48afcdc2cfe5d327"
 
 "@types/estree@0.0.39":
   version "0.0.39"
@@ -3785,10 +3785,6 @@ path-key@^2.0.0:
 path-parse@^1.0.5, path-parse@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-
-path-path@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/path-path/-/path-path-0.1.0.tgz#dcb98fac7b37f9b1f32ec663caf8f662cdba1700"
 
 path-type@^1.0.0:
   version "1.1.0"

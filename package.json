@@ -1,7 +1,7 @@
 {
   "name": "@orby/router",
   "description": "A route manager based on popstate",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "main": "dist/orby-router.js",
   "module": "dist/orby-router.mjs",
   "umd:main": "dist/orby-router.umd.js",
@@ -47,7 +47,6 @@
     ]
   },
   "dependencies": {
-    "@orby/core": "^0.0.29",
-    "path-path": "^0.1.0"
+    "@orby/core": "*"
   }
 }
